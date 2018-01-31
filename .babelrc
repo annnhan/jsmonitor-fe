@@ -1,0 +1,10 @@
+{
+  "presets": ["es2015", "stage-3"],
+  "plugins": ["transform-async-to-generator", "add-module-exports", "transform-runtime", ["component", [
+    {
+      "libraryName": "element-ui",
+      "styleLibraryName": "theme-chalk"
+    }
+  ]]],
+  "comments": false
+}
